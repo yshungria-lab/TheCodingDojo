@@ -1,0 +1,33 @@
+h1 {
+  color: white;
+  background-color: black;
+  padding: 7px;
+  margin: 2px;
+  font-family: cursive;
+}
+
+h1 span {
+  color: cyan;
+}
+
+h2 {
+  background-color: blueviolet;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding: 7px;
+  text-align: center;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+h3 {
+  margin-top: 5px;
+  color: darkslateblue;
+  background-color: lightskyblue;
+  padding: 7px 20px 7px 7px;
+  text-align: right;
+  margin-top: 5px;
+  text-decoration: underline;
+  font-family: cursive;
+}
