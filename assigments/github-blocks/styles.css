@@ -1,0 +1,57 @@
+body {
+  background-color: #d2dada;
+}
+.heading {
+  width: 850px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+img.octocat {
+  height: 200px;
+}
+
+#dojo-1 {
+  background-color: lightskyblue;
+  width: 850px;
+  height: 250px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#dojo-2 {
+  background-color: pink;
+  width: 850px;
+  height: 250px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#dojo-3 {
+  background-color: white;
+  width: 810px;
+  height: 250px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer {
+  width: 850px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: gray;
+}
+
+p > a {
+  color: #35b6b6;
+}
