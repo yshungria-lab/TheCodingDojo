@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  width: 800px;
+  height: 600px;
+  border: 5px solid lightgray;
+  position: relative;
+  left: 500px;
+  top: 200px;
+}
+
+.silhouette {
+  width: 800px;
+  height: 150px;
+  background-color: cadetblue;
+}
+
+.image-card {
+  position: relative;
+  top: -70px;
+  left: 20px;
+}
+
+.info h1 {
+  position: relative;
+  top: -60px;
+  left: 30px;
+  font-size: 60px;
+}
+
+.info img {
+  position: relative;
+  top: -40px;
+  left: 30px;
+}
+
+.info h2 {
+  display: inline-block;
+  position: relative;
+  top: -45px;
+  left: 50px;
+  font-size: 30px;
+}
+
+.info p {
+  font-size: 30px;
+  position: relative;
+  left: 30px;
+}
+
+.resume p {
+  font-size: 20px;
+  position: relative;
+  width: 750px;
+  top: 10px;
+  left: 25px;
+  text-align: justify;
+}
+
+.edit-profile img {
+  width: 30px;
+  position: relative;
+  left: 30px;
+  top: 30px;
+}
+
+.edit-profile a {
+  position: relative;
+  left: 40px;
+  top: 20px;
+  font-size: 25px;
+}
