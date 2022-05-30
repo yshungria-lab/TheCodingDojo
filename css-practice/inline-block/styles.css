@@ -1,0 +1,9 @@
+p {
+  display: inline-block;
+  width: 200px;
+  padding: 20px;
+  background-color: lightgreen;
+  margin: 10px;
+  box-sizing: border-box;
+  vertical-align: top;
+}

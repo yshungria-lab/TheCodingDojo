@@ -1,0 +1,17 @@
+.row {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  background-color: gray;
+}
+.col-1,
+.col-2 {
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  background-color: lightcyan;
+}
+
+.col-2 {
+  flex: 2;
+}
