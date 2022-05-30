@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: #cccccc;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header button {
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #2b78e4;
+  color: white;
+  box-shadow: 3px 5px 0px black;
+}
+
+#search {
+  width: 600px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Main content */
+
+.card-1 {
+  width: 450px;
+  border: 3px solid black;
+  margin-top: 50px;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.card-1 p {
+  width: 180px;
+}
+
+.content h2,
+h3,
+p,
+button {
+  width: 80px;
+  margin: 10px;
+  text-align: center;
+}
+
+.content :nth-child(1) {
+  position: relative;
+  left: 50px;
+}
+
+.content :nth-child(2) {
+  position: relative;
+  left: 50px;
+}
+
+.content :nth-child(4) {
+  position: relative;
+  left: 50px;
+}
+
+.content button {
+  background-color: #ffd966;
+  box-shadow: 2px 3px 0px black;
+  font-size: 17px;
+  padding: 5px;
+}
+
+.card-2 {
+  border: 3px solid black;
+  width: 200px;
+  height: 120px;
+  padding: 20px;
+  position: relative;
+  left: 600px;
+  top: -385px;
+}
+
+.content-2 button {
+  background-color: #93c47d;
+  margin: 20px;
+  width: 140px;
+  height: 35px;
+  box-shadow: 3px 3px 0px black;
+  font-size: 17px;
+}

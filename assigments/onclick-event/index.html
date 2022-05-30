@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Onclick Event</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Dojonary</h1>
+        <input type="search" name="search" id="search" placeholder="search" />
+        <button onclick="logout(this)">Login</button>
+      </header>
+
+      <main>
+        <div class="card-1">
+          <div class="content">
+            <h2>ninja</h2>
+            <h3>noun</h3>
+            <p>Plural: ninjas</p>
+
+            <button onclick="alert('Ninja was liked')">13 likes</button>
+          </div>
+
+          <p>
+            A practitioner skilled in the <a href="#">Japanese</a> art of
+            <a href="#">ninjutsu</a>
+          </p>
+        </div>
+
+        <div class="card-1">
+          <div class="content">
+            <h2>ninja</h2>
+            <h3>noun</h3>
+            <p>Plural: ninjas</p>
+
+            <button onclick="alert('Ninja was liked')">37 likes</button>
+          </div>
+
+          <p>
+            A <a href="#">programmer</a> who breaks down problems with
+            <a href="#">zen</a>-like
+          </p>
+        </div>
+
+        <div class="card-2">
+          <div class="content-2">
+            <h2>Dojonary is defined by you</h2>
+            <button onclick="hide(this)">Add Definition</button>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
